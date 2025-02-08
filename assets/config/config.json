@@ -2,16 +2,8 @@
 	"training": {
 		"active": true,
 		"test": true,
-		"filename": ".\\assets\\in\\training\\KnivesImagesDatabase.rar",
-		"output": ".\\assets\\in\\training\\",
-		"knifes": {
-			"positives": {
-
-			},
-			"negatives": {
-				
-			}
-		}
+		"input_path": ".\\assets\\in\\training\\KnivesImagesDatabase",
+		"output_path": ".\\assets\\out\\training\\"
 	},
 	"analyzer":{
 		"webcam": {

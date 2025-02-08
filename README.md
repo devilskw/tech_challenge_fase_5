@@ -69,17 +69,20 @@ Caso deseje desativar no Windows:
 Para debugar a aplicação, você poderá instalar através do comando abaixo:
 
 ```
-pip install -r requirements.txt
+.venv/Scripts/pip.exe install -r requirements.txt
 ```
 
 ou então instalar manualmente
 
 ```
-pip install unrar
-pip install --upgrade fastai
-pip install --upgrade opencv-python
-pip install --upgrade matplotlib
+# .venv/Scripts/pip.exe install unrar
+.venv/Scripts/pip.exe install --upgrade fastai
+.venv/Scripts/pip.exe install --upgrade opencv-python
+.venv/Scripts/pip.exe install --upgrade matplotlib
 ```
+
+
+
 
 https://embarcados.com.br/processamento-de-imagens-com-opencv-no-raspberry-pi-zero/
 https://www-geeksforgeeks-org.translate.goog/detect-an-object-with-opencv-python/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
@@ -88,3 +91,7 @@ https://pypi.org/project/fastai/
 https://medium.com/hackernoon/recognising-a-knife-in-an-image-with-machine-learning-c7479f80525
 https://andreas-varotsis.medium.com/automating-knife-classification-with-machine-learning-3767d93d2789
 
+https://medium.com/hackernoon/recognising-a-knife-in-an-image-with-machine-learning-c7479f80525
+https://github.com/ruairidhwm/knife-finder
+https://walkwithfastai.com/vision.clas.single_label
+https://medium.com/@serverwalainfra/understanding-fastais-learner-object-13e6982b2eac
