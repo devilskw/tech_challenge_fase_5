@@ -1,21 +1,34 @@
 {
 	"training": {
-		"active": true,
-		"test": true,
+		"train": false,
+		"debug": true,
+		"model_filename": "knives_threat_trainned_model.pkl",
 		"input_path": ".\\assets\\in\\training\\KnivesImagesDatabase",
-		"output_path": ".\\assets\\out\\training\\"
+		"output_path": "C:\\Users\\kazuo\\projetos\\ia\\fase5\\tech_challenge_fase_5\\assets\\out\\training",
+		"qtd_epoch": 8
 	},
 	"analyzer":{
 		"webcam": {
-			"active": true
+			"active": false
 		},
 		"video": {
+			"active": true,
+			"debug": true,
 			"path": {
-				"in": "assets\\in",
-				"out": "assets\\out",
-				"filenames": ["teste.mp4"]
+				"in": "assets\\in\\videos",
+				"out": "assets\\out\\videos"
+			},
+			"filenames": ["video.mp4", "video2.mp4"]
+		},
+		"threats": {
+			"path": {
+				"out": "C:\\Users\\kazuo\\projetos\\ia\\fase5\\tech_challenge_fase_5\\assets\\out\\threats"
+			},
+			"email": {
+				"dest": "samuelkw@gmail.com",
+				"subject": "Alerta de ameaça detectada",
+				"message": "O video foi processado e o algoritmo identificou uma ou mais ameaças."
 			}
 		}
-
 	}
 }
