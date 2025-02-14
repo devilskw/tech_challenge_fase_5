@@ -1,0 +1,3 @@
+.venv/Scripts/pip.exe install --upgrade ultralytics
+.venv/Scripts/pip.exe install --upgrade opencv-python
+.venv/Scripts/pip.exe install --upgrade matplotlib

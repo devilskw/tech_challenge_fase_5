@@ -1,0 +1,13 @@
+train: ../model_ai/dataset/train/images
+val: ../model_ai/dataset/valid/images
+test: ../model_ai/dataset/test/images
+
+nc: 4
+names: ['axe', 'gun', 'knife', 'sickle']
+
+roboflow:
+  workspace: www-oedzr
+  project: weapons-8fe0z
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/www-oedzr/weapons-8fe0z/dataset/2

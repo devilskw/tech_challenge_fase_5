@@ -1,0 +1,25 @@
+  all       2696       2968       0.68      0.523      0.584      0.341
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+        2/3         0G      1.029      1.423      1.516         41        640: 100%|██████████| 1459/1459 [4:21:02<00:00, 10.74s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 85/85 [11:37<00:00,  8.20s/it]
+                   all       2696       2968      0.668      0.574      0.622      0.379
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+        3/3         0G     0.9384      1.227       1.44         25        640: 100%|██████████| 1459/1459 [4:12:29<00:00, 10.38s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 85/85 [11:02<00:00,  7.79s/it]
+                   all       2696       2968       0.82      0.661      0.779      0.509
+
+3 epochs completed in 14.265 hours.
+Optimizer stripped from runs\detect\train3\weights\last.pt, 6.2MB
+Optimizer stripped from runs\detect\train3\weights\best.pt, 6.2MB
+
+Validating runs\detect\train3\weights\best.pt...
+Ultralytics 8.3.73 🚀 Python-3.10.0 torch-2.6.0+cpu CPU (Intel Core(TM) i5-6200U 2.30GHz)
+Model summary (fused): 168 layers, 3,006,428 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 85/85 [10:02<00:00,  7.08s/it]
+                   all       2696       2968      0.819      0.661      0.779      0.509
+                   axe        234        293      0.834      0.724      0.812      0.513
+                   gun       1401       1564      0.858        0.7      0.808      0.606
+                 knife       1061       1111      0.765      0.559      0.717      0.408
+Speed: 5.2ms preprocess, 205.9ms inference, 0.0ms loss, 0.8ms postprocess per image
