@@ -9,6 +9,9 @@ kazuo_w@hotmail.com
 Jonathan Maximo da Silva
 jonathan.desenv@gmail.com
 
+Samuel Rodrigues De Barros Mesquita Neto
+samuelr.neto98@gmail.com
+
 
 ## Sobre o desafio
 
@@ -38,11 +41,11 @@ O sistema "Intelligent Threat Analyzer" é um sistema inteligente capaz de ident
 
 ### Dataset para baixar imagens de facas
 
-Pesquisando na internet, vimos outros artigos e estudos que também trabalharam com treino de modelos para facas, onde indicavam dataset para treino do modelo contendo uma gama de imagens positivas e negativas de facas, o que apoia muito o nosso trabalho e estaremos utilizando aqui. Abaixo, a url da fonte do dataset para apoiar caso desejemos utilizar (deverá ser feito o download para a pasta assets/in/training do projeto).
+Pesquisando na internet, vimos outros artigos e estudos que também trabalharam com treino de modelos para facas, onde indicavam dataset para treino do modelo contendo uma gama de imagens positivas e negativas de facas, maxados, foices e até armas de fogo, o que apoia muito o nosso trabalho e estaremos utilizando aqui. Abaixo, a url da fonte do dataset para apoiar caso desejemos utilizar (deverá ser feito o download para a pasta model_ai/dataset do projeto).
 
-[Knifes Images Database](https://kt.agh.edu.pl/~matiolanski/KnivesImagesDatabase/)
+[Dataset Images](https://universe.roboflow.com/www-oedzr/weapons-8fe0z/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 
-Segundo informações, ele possui 9340 exemplos negativos e 3359 exemplos positivos. Como o uso é somente para estudo/trabalho, ele pede para citar o artigo: [CCTV object detection with fuzzy classification and image enhancement, Andrzej MATIOLAŃSKI, Aleksandra MAKSIMOWA, Andrzej DZIECH, Multimedia Tools and Applications, 2015, pages 1-16, ISSN 1573-7721, doi:10.1007/s11042-015-2697-z
+Segundo informações, ele possui mais de 27.000 exemplos de imagens. Como o uso é somente para estudo/trabalho, ele pede para citar o artigo: [CCTV object detection with fuzzy classification and image enhancement, Andrzej MATIOLAŃSKI, Aleksandra MAKSIMOWA, Andrzej DZIECH, Multimedia Tools and Applications, 2015, pages 1-16, ISSN 1573-7721, doi:10.1007/s11042-015-2697-z
 Available at: http://link.springer.com/article/10.1007%2Fs11042-015-2697-z](http://link.springer.com/article/10.1007%2Fs11042-015-2697-z)
 
 ### Vamos utilizar o VENV
@@ -75,8 +78,7 @@ pip install -r requirements.txt
 ou então instalar manualmente
 
 ```
-pip install unrar
-pip install --upgrade fastai
+pip install --upgrade ultralytics
 pip install --upgrade opencv-python
 pip install --upgrade matplotlib
 ```
@@ -87,4 +89,7 @@ https://learnopencv.com/moving-object-detection-with-opencv/
 https://pypi.org/project/fastai/
 https://medium.com/hackernoon/recognising-a-knife-in-an-image-with-machine-learning-c7479f80525
 https://andreas-varotsis.medium.com/automating-knife-classification-with-machine-learning-3767d93d2789
+https://docs.ultralytics.com/pt/guides/
+https://docs.ultralytics.com/pt/datasets/detect/
+https://github.com/ultralytics/yolov5
 
