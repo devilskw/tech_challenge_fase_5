@@ -47,7 +47,6 @@ Pesquisando na internet, vimos outros artigos e estudos que também trabalharam 
 
 Segundo informações, ele possui mais de 27.000 exemplos de imagens. Como o uso é somente para estudo/trabalho, ele pede para citar o(s) artigo(s) e fonte(s): [CCTV object detection with fuzzy classification and image enhancement, Andrzej MATIOLAŃSKI, Aleksandra MAKSIMOWA, Andrzej DZIECH, Multimedia Tools and Applications, 2015, pages 1-16, ISSN 1573-7721, doi:10.1007/s11042-015-2697-z
 Available at: http://link.springer.com/article/10.1007%2Fs11042-015-2697-z](http://link.springer.com/article/10.1007%2Fs11042-015-2697-z)
-[https://universe.roboflow.com/www-oedzr/weapons-8fe0z]
 
 ### Vamos utilizar o VENV
 
